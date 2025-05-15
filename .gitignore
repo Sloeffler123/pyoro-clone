@@ -1,3 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+.gitattributes/
+Pyoro clone.csproj/
+Pyoro clone.sln/
+icon.svg/
+icon.svg.import/
+project.godot/
