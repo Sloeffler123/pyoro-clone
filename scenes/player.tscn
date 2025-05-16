@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://hp7nbcm7lhq6"]
+[gd_scene load_steps=6 format=3 uid="uid://dw22x7gfd467j"]
 
 [ext_resource type="Texture2D" uid="uid://bywytvtmehcpt" path="res://assets/sprites/bird standing left.png" id="1_8sokn"]
 [ext_resource type="Script" uid="uid://ibqumxvlu7mj" path="res://scripts/Player.cs" id="1_qhqgy"]
@@ -27,6 +27,7 @@ script = ExtResource("1_qhqgy")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_p7tul")
+autoplay = "default"
 frame_progress = 0.870097
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

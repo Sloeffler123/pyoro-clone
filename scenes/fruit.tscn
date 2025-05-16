@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://mu43lsc4pbnd"]
+
+[ext_resource type="Texture2D" uid="uid://b1m2p7b5jothf" path="res://assets/sprites/fruit.png" id="1_lfepc"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yvtr8"]
+radius = 3.0
+height = 14.0
+
+[node name="fruit" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_lfepc")
+region_enabled = true
+region_rect = Rect2(20.4291, 0, 8.52338, 15.7862)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 1)
+shape = SubResource("CapsuleShape2D_yvtr8")
